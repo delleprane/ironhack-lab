@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>IronSkydive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="bar">
+        <ul class="-bar-ul ">
+            <li>
+                <a href="#structure">Day Structure</a>
+            </li>
+
+            <li>
+                <a href="#team">Team</a>
+            </li>
+
+            <li>
+                <a href="#schedule">schedule</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1>
+            <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png"
+                alt="IronSkydive Logo">IronSkydive
+        </h1>
+
+        <h2 class="container">Let the trip begin</h2>
+
+        <aside class="cite">
+            <cite>"The best experience of our lives" <p> Ariel Quiñones & Gonzalo Manrique, Ironhack founders</p>
+            </cite>
+        </aside>
+    </header>
+
+
+
+    <section id="general-information">
+        <div class="container">
+            <article>
+                <h3> Hello!</h3>
+                <p class="p"> Welcome to the IronSkydive, the best adventure you will ever have. </p>
+                <a href="#" class="btn">Learn more</a>
+            </article>
+
+            <article>
+                <h3>About us</h3>
+                <p class="p"> We like a lot progamming websites,but we also love to practice sport.
+                </p>
+                <a href="#" class="btn">Watch Video</a>
+            </article>
+
+            <article>
+                <h3>Wanna Join? </h3>
+                <p class="p"> Join aour fitness program to be in good shape while learning.
+                </p>
+                <a href="#" class="btn">Register</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="structure" class="container">
+        <h3> How do we structure the day</h3>
+
+        <div>
+            <article class="service-box">
+                <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png">
+
+                <h4>Training </h4>
+                <p> We teach all necessary things to jump from to plane whithoud any kind of problem.
+                </p>
+            </article>
+
+            <article class="service-box">
+                <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png">
+                <h4>Get ready</h4>
+                <p> You are alredy prepared, you just ned the suit and a parachute. All sizes available.
+                </p>
+            </article>
+
+            <article class="service-box">
+                <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png">
+                <h4>Fly</h4>
+                <p>You are redy, and the plane is waiting for us in the hangar. Let´s fly!
+                </p>
+            </article>
+
+            <article class="service-box">
+                <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png">
+                <h4>Jump!</h4>
+                <p> You have done the most complicated. Just one step left... Jump!</p>
+            </article>
+        </div>
+    </section>
+
+    <Section id="team">
+        <h3>Team </h3>
+        <p class="section-text">Our team collectively has 75 yars of experience.Odds are, when you jump out of the plane
+            whit these professionals, you won´t go splat.</p>
+        <hr>
+
+        <div>
+            <article>
+                <h4 class="member-name">
+                    <b>Harold Rothstein </b>
+                </h4>
+                <img
+                    src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg">
+            </article>
+
+            <article>
+                <h4 class="member-name">
+                    <h4><b>Susan Phillips</b></h4>
+                    <img
+                        src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg">
+            </article>
+
+            <article>
+                <h4 class="member-name">
+                    <h4>
+                        <b>Taylor Roberts</b>
+                    </h4>
+                    <img
+                        src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg">
+            </article>
+        </div>
+    </section>
+
+    <section id="schedule" class="container">
+        <H3>Schedule</H3>
+
+        <table cellpadding="5px 10px" cellspacing="0">
+            <thead>
+            <tbody>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>9:00 - 11:00</td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>12:00 - 14:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>15:00 - 17:00</td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Schedule a Time Slot</h3>
+        <form action="/register" method="post">
+            <div class="slot-form-container">
+                <label for="email">Enter your email: </label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="slot-form-container">
+                <label for="participants">Number of participants</label>
+                <input type="number" id="participants">
+            </div>
+
+            <div class="slot-form-container">
+                <label>Date</lable>
+                    <input id="date" type="date">
+            </div>
+
+            <div class="slot-form-container">
+                <label>Time</lable>
+                    <select id="hora">
+                        <option value="early">9:00 - 11:00</option>
+                        <option value="mid">12:00 - 14:00</option>
+                        <option value="late">15:00 - 17:00</option>
+                    </select>
+            </div>
+
+            <div class="slot-form-container">
+                <button type="button">Reserve Your Slot!</button>
+            </div>
+        </form>
+
+    </section>
+
+
+    <section>
+        <footer class="dark-background">
+            <div>
+                <h5>Contact Information</h5>
+
+                <address class="addresse">IronSkydive<br>
+                    33 Rue la Fayette,<br>
+                    75009 Paris, <br>
+                    France <br>
+                    +33 (0) 619 193 088
+                </address>
+
+                <h5>Follow Us</h5>
+                <ul class="list-style">
+                    <li><a href="#" target="_blank">Twitter</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099"
+                class="map-frame" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </footer>
+
+    </section>
+
+</body>
